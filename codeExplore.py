@@ -1,8 +1,8 @@
+print ("Content-type:text/html\r\n\r\n")
 #!C:\Users\lx\AppData\Local\Programs\Python\Python39\python.exe
 import cgi
 from googlesearch import search
 from furl import furl
-
 
 try:
     form = cgi.FieldStorage()
@@ -21,6 +21,13 @@ try:
         print(result)
 except:
     print("something went wrong")
+
+print(searchTerm)
+
+
+
+
+
 
 
 
